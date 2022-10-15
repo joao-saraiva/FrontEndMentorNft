@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 333px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1.25rem;
+  border-radius: 20px;
+}
+
+.img_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.img_container img {
+  width: 100%;
+}
+
+.description_container {
+  margin-bottom: 20px;
+}
+
+.description_container h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.description_container h3:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.description_container p {
+  color: hsl(215, 51%, 70%);
+}
+
+.comercial_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 3px solid hsl(215, 32%, 27%);
+}
+
+.etherum_container {
+  display: flex;
+  align-items: center;
+  gap: 10px 10px;
+}
+
+.etherum_container span {
+  color: hsl(178, 100%, 50%);
+}
+
+.clock_container {
+  display: flex;
+  align-items: center;
+  gap: 10px 10px;
+}
+
+.clock_container {
+  color: hsl(215, 51%, 70%);
+}
+
+.creator_container {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px 20px;
+  align-items: center;
+}
+
+.creator_container img {
+  width: 40px;
+}
+
+.creator_container p {
+  color: hsl(215, 51%, 70%);
+}
+
+.creator_container span {
+  color: hsl(0, 0%, 100%);
+}
+
+.creator_container span:hover {
+  color: hsl(178, 100%, 50%);
+}
